@@ -3,6 +3,7 @@ import 'package:nov/Lecture/Carousel_slider.dart';
 import 'package:nov/Lecture/Grid/GridView.dart';
 import 'package:nov/Lecture/Grid/Grid_View_Builder.dart';
 import 'package:nov/Lecture/Grid/Grid_View_Count.dart';
+import 'package:nov/Lecture/Grid/Grid_View_Extend.dart';
 import 'package:nov/Lecture/staharedGridView.dart';
 
 void main() {
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const GRIDVIEWBUILDER(),
+      home: const GRIDVIEWEXTEND(),
     );
   }
 }

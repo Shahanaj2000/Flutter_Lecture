@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:nov/Lecture/Carousel_slider.dart';
-import 'package:nov/Lecture/Grid/GridView.dart';
-import 'package:nov/Lecture/Grid/Grid_View_Builder.dart';
-import 'package:nov/Lecture/Grid/Grid_View_Count.dart';
-import 'package:nov/Lecture/Grid/Grid_View_Custom.dart';
-import 'package:nov/Lecture/Grid/Grid_View_Extend.dart';
+import 'package:nov/Lecture/GRID%20VIEWS/GridView.dart';
+import 'package:nov/Lecture/GRID%20VIEWS/Grid_View_Builder.dart';
+import 'package:nov/Lecture/GRID%20VIEWS/Grid_View_Count.dart';
+import 'package:nov/Lecture/GRID%20VIEWS/Grid_View_Custom.dart';
+import 'package:nov/Lecture/GRID%20VIEWS/Grid_View_Extend.dart';
 import 'package:nov/Lecture/staharedGridView.dart';
 
 void main() {

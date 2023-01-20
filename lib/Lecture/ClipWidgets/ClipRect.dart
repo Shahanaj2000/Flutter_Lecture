@@ -17,21 +17,18 @@ class CLIPRECT extends StatelessWidget {
       appBar: AppBar(
         title: const Text("CLIPRECT"),
       ),
-      body: ListView(
-        children: [
-          ClipRect(
-            clipBehavior: Clip.hardEdge,
-            child: Container(
-              child:  Align(
-                alignment: Alignment.center,
-                widthFactor: 150,
-                heightFactor: 100,
-                child: Image.network( 'https://images.unsplash.com/photo-1473992243898-fa7525e652a5'),
-              ),
+      body: Center(
+        child: ClipRect(
+          clipBehavior: Clip.hardEdge,
+          child: Container(
+            child:  Align(
+              alignment: Alignment.center,
+              widthFactor: 150,
+              heightFactor: 100,
+              child: Image.network( 'https://images.unsplash.com/photo-1473992243898-fa7525e652a5'),
             ),
           ),
-          const SizedBox(height: 10,)
-        ], 
+        ),
       ),
     );
   }
